@@ -2,11 +2,16 @@ package main
 
 import (
 	"fmt"
+
 	"time"
+
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
 	fmt.Println("Привет, мир!") // Вывод текста
+
+	_ = gin.Default()
 
 	// Пример работы с переменными, циклами и условиями
 	numbers := []int{1, 2, 3, 4, 5}
