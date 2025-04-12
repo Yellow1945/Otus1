@@ -12,6 +12,7 @@ func main() {
 	fmt.Println("Привет, мир!") // Вывод текста
 
 	_ = gin.Default()
+	gin.SetMode(gin.ReleaseMode)
 
 	// Пример работы с переменными, циклами и условиями
 	numbers := []int{1, 2, 3, 4, 5}
